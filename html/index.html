@@ -37,11 +37,49 @@
        <!------------------------------End Navbar--------------------------------------->
        <!------------------------------Start Main-Content-Container--------------------------------------->
        <div class="main-content-container">
+          <form action="#">
            <div class="main-content-image">
                 <h1>Car insurance</h1>  
                               
            </div>
            <div class="main-content-form">
+              <div class="main-content-form-text">
+                  <h2>Great coverage begins <br>
+                  with custom quote</h2>
+              </div>
+              <div class="main-content-form-form">
+                  <div class="main-content-form-name">
+                      <p>Name:</p>
+                      <input type="text" name="yname" id="yname">
+                  </div>
+                  <div class="main-content-form-name">
+                      <p>Age:</p>
+                      <input type="text" name="age" id="age">
+                      
+                  </div>
+              </div>
+              <div class="main-content-form-form">
+                  <div class="main-content-form-name">
+                      <p>Country:</p>
+                      <select name="country" id="country">
+                          <option value="100" id="austria">Austria</option>
+                          <option value="150" id="greece">Greece</option>
+                          <option value="120" id="hungary">Hungary</option>
+                          <option value="other" id="other">Other Country</option>
+                      </select>
+                  </div>
+                  <div class="main-content-form-name">
+                      <p>Horsepower of your car:</p>
+                      <input type="text" name="power" id="power">
+                  </div>
+              </div>
+              <div class="main-content-form-button">
+                  <input type="reset" value="submit" onclick="showCalc()" id="submitbutton">
+                
+              </div>
+              <div class="main-content-form-print">
+                  <h2 id="calcText">Printet calculation goes here</h2>
+              </div>
                
            </div>
            <div class="main-content-text">
@@ -50,6 +88,7 @@
                   We'll guide you through available coverage types,<br>
                   starting with who and what is covered.</p>
            </div>
+           </form>
        </div>
        <!------------------------------End Main-Content-Container--------------------------------------->
        <!------------------------------Start Insurance-Content-Container--------------------------------------->
