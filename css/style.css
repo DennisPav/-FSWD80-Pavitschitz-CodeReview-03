@@ -1,0 +1,220 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/*--------------------------Start Main-Container---------------------------------*/
+.main-container{
+    width: 1300px;
+    /*height: 4000px;*/
+    margin: 0 auto;
+}
+/*-------------------------Start Logo-Main-Container---------------------------*/
+
+.logo-main-container{
+    width: 100%;
+    height: 150px;
+    background-color: #FFF3F3;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.logo-left{
+    justify-content: center;
+    margin: 50px;
+    width: 30%;
+}
+.logo-left img{
+    width: 60%;    
+}
+
+.logo-right{
+    text-align: right;
+    width: 70%;
+    
+}
+.logo-right img{
+    width: 80%;
+    margin: 24px 50px 24px;
+}
+/*---------------------------End Logo-Main-Container------------------------------*/
+
+/*-----------------------------Start Navbar-----------------------------------*/
+.navbar{
+    background-color: #8E1616;
+    height: 40px;
+}
+
+.navbar>ul{
+    list-style-type: none;
+    margin: 0;
+    
+}
+.navbar>ul>li{
+    display: inline-block;
+    margin: 5px;
+    font-size: 24px;    
+}
+.navbar>ul>li>a{
+    color: #FFF;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.navbar>ul>li>a:hover{
+    color: #000;
+}
+/*----------------------------End Navbar------------------------------------*/
+
+/*--------------------Start Main-Content-Container--------------------------*/
+.main-content-container{
+    width: 100%;
+    height: 60%;
+    position: relative;
+    z-index: -1;
+}
+.main-content-image{
+    width: 100%;
+    height: 700px;
+    background-image: url("../img/traffic-332857_1920.jpg");
+    background-size: cover;
+    padding-top: 5px;
+
+}
+h1{
+    color: #FFF;
+    padding: 50px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.main-content-form{
+    border: 1px solid black;
+    width: 80%;
+    height: 60%;
+    z-index: 3;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    background-color: #FFF;
+    opacity: 0.7;
+}
+.main-content-text{
+    margin: 0;
+    padding: 50px;
+    background-color: #CECECE;
+    height: 105px;
+}
+.main-content-text>h2{
+    margin: 10px;
+    font-size: 32px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #4D4D4D;
+}
+.main-content-text>p{
+    margin-top: 5px;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #4D4D4D;
+}
+/*--------------------Start Main-Content-Container--------------------------*/
+
+/*--------------------Start Insurance-Content-Container--------------------------*/
+
+.insurance-content-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.standard-content{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid grey;
+    border-top: 2px solid black;
+    width: 40%;
+    position: relative;
+    padding: 10px;
+    box-shadow: 2px 2px 3px #888888;
+}
+.standard-content>h3{
+    margin-left: 40px;
+    font-size: 24px;
+    color: #7176A9;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+.standard-content>p{
+    margin-left: 40px;
+    margin-top: 0;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.standard-content>ul{
+   list-style: none; 
+    margin-left: 25px;
+    font-family: sans-serif;
+}
+
+.standard-content>ul>li:before {
+    position: absolute;
+    left: 40px;
+    content: '✓'; 
+    color: #8DD1D3;
+    font-weight:bolder;
+    font-size: 18px;
+}
+.standard-content>h4{
+    margin: 40px 40px 10px;
+    font-family: sans-serif;
+}
+.insurance-text{
+    color: #B3B0AD;
+    font-family: sans-serif;
+}
+.insurance-text>sup {
+  vertical-align: super;
+  font-size: 10px;
+}
+/*--------------------End Insurance-Content-Container--------------------------*/
+
+/*--------------------Start Footer-Container--------------------------*/
+.footer-container{
+    background-color: #000;
+    margin-top: 100px;
+    
+}
+.footer-navbar>ul{
+    list-style: none;
+    margin: 5px 10px 5px;
+    padding: 10px;
+}
+.footer-navbar>ul>li{
+    display: inline-block;
+    font-size: 24px;
+   
+}
+.footer-navbar>ul>li>a{
+    display: inline-block;
+    font-size: 20px;
+    color: #FFF;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.footer-logo{
+    text-align: end;
+    padding-right: 30px;
+}
+.footer-logo>img{
+    width: 20%;
+}
+.footer-name{
+    text-align: center;
+}
+.footer-name>h5{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
