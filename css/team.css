@@ -1,5 +1,3 @@
-@media only screen and (min-width: 1001px){
-
 body {
     padding: 0;
     margin: 0;
@@ -135,143 +133,15 @@ h1 {
 }
 
 /*--------------------Start Main-Content-Container--------------------------*/
-.main-content-form-text {
+.main-container {
+    width: 900px;
+    height: 700px;
     text-align: center;
 }
-
-.main-content-form-text > h2 {
-    font-size: 48px;
-    font-family: 'Raleway', sans-serif;
-    color: #2C2C2C;
+#team1{
+    font-size: 36px;
+    color: #000;
 }
-
-.main-content-form-form {
-    display: flex;
-    justify-content: space-around;
-    padding: 0;
-    width: 50%;
-    height: 80px;
-    margin: 0 auto;
-}
-.main-content-form-name {
-    margin: 15px;
-    width: 100%;
-}
-
-.main-content-form-name>p{
-    text-align: left;
-    font-size: 18px;
-    margin: 0;
-    font-weight: bolder;
-    color: #2C2C2C;
-}
-#yname{
-    width: 80%;
-    height: 80%;
-    background-color: 
-}
-#age{
-    width: 80%;
-    height: 80%;
-}
-#country{
-    width: 80%;
-    height: 90%;
-}
-#power{
-    width: 80%;
-    height: 80%;
-}
-
-
-.main-content-form-button {
-    text-align: center;
-    margin: 30px;
-   
-}
-
-#submitbutton {
-    width: 20%;
-    height: 50px;
-    border-radius: 16px;
-    background-color: #339235;
-    color: #f8f8ff;
-    font-size: 28px;
-    cursor: pointer;
-    
-
-}
-.main-content-form-print{
-    text-align: center;
-    color: #339235;
-    font-size: 24px;
-}
-/*--------------------Start Insurance-Content-Container--------------------------*/
-
-.insurance-content-container {
-    display: flex;
-    margin-top: 50px;
-    justify-content: space-between;
-}
-
-.standard-content {
-    margin-left: 50px;
-    margin-right: 50px;
-    border: 1px solid grey;
-    border-top: 2px solid black;
-    width: 40%;
-    position: relative;
-    padding: 10px;
-    box-shadow: 2px 2px 3px #888888;
-}
-
-.standard-content > h3 {
-    margin-left: 40px;
-    font-size: 24px;
-    color: #7176A9;
-    margin-bottom: 5px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.standard-content > p {
-    margin-left: 40px;
-    margin-top: 0;
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.standard-content > ul {
-    list-style: none;
-    margin-left: 25px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.standard-content > ul > li:before {
-    position: absolute;
-    left: 40px;
-    content: '✓';
-    color: #8DD1D3;
-    font-weight: bolder;
-    font-size: 18px;
-}
-
-.standard-content > h4 {
-    margin: 40px 40px 10px;
-   font-family: 'Raleway', sans-serif;
-}
-
-.insurance-text {
-    color: #B3B0AD;
-    font-family: 'Raleway', sans-serif;
-}
-
-.insurance-text > sup {
-    vertical-align: super;
-    font-size: 10px;
-}
-
-/*--------------------End Insurance-Content-Container--------------------------*/
-
 /*--------------------Start Footer-Container--------------------------*/
 .footer-container {
     background-color: #000;
@@ -319,4 +189,3 @@ h1 {
     padding: 10px;
 }
     
-}

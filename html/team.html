@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Team</title>
+    <link type="text/css" href="../css/team.css" rel="stylesheet">
+    <script type="text/javascript" src="../javaScript/script.json"></script>
+
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="logo-main-container">
+            <div class="logo-left">
+                <img src="../img/logo.png" alt="" height="" width="">
+
+            </div>
+            <div class="logo-right">
+                <img src="../img/banner.png" alt="" height="" width="">
+
+            </div>
+        </div>
+        <!------------------------------End Logo-Container--------------------------------------->
+        <!------------------------------Start Navbar--------------------------------------->
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="team.html">Team</a>
+                </li>
+            </ul>
+        </div>
+        <!------------------------------End Navbar--------------------------------------->
+
+        <div class="main-content-container">
+            <div class="data">
+              
+                <h1 id="team1">Team</h1>
+                
+  <script>
+    
+        
+        document.getElementById("team1").innerHTML = teamMembersVar("");
+         function teamMembersVar() {
+            document.writeln("<h2>Team</h2>");
+
+            var i = 0
+            document.writeln("<div class='team'>");
+            for (i = 0; i < team.teamMembers.length; i++) {    
+                document.writeln("<h2>" + team.teamMembers[i].name + "</h2>");               
+                document.writeln("<h3>" + team.teamMembers[i].email + "</h3>");            
+                document.writeln("<h4>" + team.teamMembers[i].image + "</h4>");
+            }
+
+            document.writeln("</div");
+            
+        }
+        
+    </script>
+            </div>
+
+        </div>
+
+
+        <!------------------------------Start Footer-Container--------------------------------------->
+        <div class="footer-container">
+            <div class="footer-navbar">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="team.html">Team</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-logo">
+                <img src="../img/logo-inv.png" alt="" height="" width="">
+
+            </div>
+            <div class="footer-name">
+                <h5>Dennis Pavitschitz - CodeFactory 2018</h5>
+            </div>
+        </div>
+        <!------------------------------End Footer-Container--------------------------------------->
+    </div>
+
+
+</body>
+
+</html>
